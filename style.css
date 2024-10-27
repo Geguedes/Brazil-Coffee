@@ -1,0 +1,146 @@
+body {
+    background: rgb(208, 160, 98);
+    color:brown;
+}
+
+nav {
+    max-width: 2000px;
+    margin: auto;
+    padding: 24px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Georgia;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background: burlywood;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.banner-text {
+    grid-column: 2/ span 5;
+    grid-row: 1;
+}
+
+.banner-images {
+    grid-column: 8/ span 4;
+    grid-row: 1;
+}
+
+.banner-images > figure > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.About {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.recipes {
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+.footer {
+    text-align: center;
+}
+
+
+.Cappuccino {
+    background-image: url("Images/CoffeeBeans.jpg");
+}
+
+.Recipe-cappuccino {
+    background-color: burlywood;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.Title-cap {
+    text-align: center;
+}
+
+
+.Latte {
+    background-image: url("Images/Latte.jpg");
+}
+
+.Recipe-Latte {
+    background-color: burlywood;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.Title-Lat {
+    text-align: center;
+}
+
+
+.Pumpkin {
+    background-image: url("Images/Pumpkin.jpg");
+}
+
+.Recipe-Pumpkin {
+    background-color: burlywood;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.Title-Pum {
+    text-align: center;
+}
+
+
+.Mocha {
+    background-image: url("Images/Chocolate.jpg");
+}
+
+.Recipe-Mocha {
+    background-color: burlywood;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.Title-Moc {
+    text-align: center;
+}
